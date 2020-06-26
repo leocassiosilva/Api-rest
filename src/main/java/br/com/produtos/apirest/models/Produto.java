@@ -13,12 +13,16 @@ import javax.persistence.Table;
 @Table(name="TB_PRODUTOS")
 public class Produto implements Serializable{
 	
-	private static final long serialVersionUID = 1L; 
+	
+	
+private static final long serialVersionUID = 1L;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long id; 
+	private long id;
 	
+	
+
 	private String nome;
 	
 	private BigDecimal quantidade;
